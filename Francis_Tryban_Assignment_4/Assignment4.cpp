@@ -11,16 +11,8 @@
 // Author: Francis Tryban
 // Creation date: October 12, 2026
 // Revision date: October 15, 2026
-// Revisions: Started from the Codex base code. Print each solution as soon as it
-//            is found instead of storing them, removed the hidden 100,000
-//            solution limit, split load() into readRow/readGrid/checkClues,
-//            pulled findEmpty out of search, skip the search when clues clash,
-//            renamed variables, rewrote the comments, and print the total count.
 // Collaborators: OpenAI Codex (GPT-6 Luna) wrote the base code. Claude Opus 5.5
-//                (Anthropic) helped with the first round of changes and wrote my
-//                test scripts. ChatGPT (GPT-6.1 Sol, OpenAI) helped revise the
-//                code and comments. No web sources were used.
-
+//                (Anthropic) helped with the first round of changes and wrote my test scripts.
 #include <array>     // fixed-size arrays used for the Sudoku grid.
 #include <fstream>   // file streams for opening puzzle files.
 #include <iostream>  // std::cout for printing grids and messages.
